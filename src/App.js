@@ -14,9 +14,9 @@ function App() {
           <div className="row">
             {/* Free Tier */}
             <h1 className="text-center">Price card</h1>
-     <Pricecard cardplan = "free" price = "0"></Pricecard>
-     <Pricecard cardplan = "plus" price = "9"></Pricecard>
-     <Pricecard cardplan = "pro" price = "49"></Pricecard>
+     <Pricecard cardplan = "free" price = "0" users = "single" storage ="50GB"></Pricecard>
+     <Pricecard cardplan = "plus" price = "9" users = "5 users" storage ="50GB"></Pricecard>
+     <Pricecard cardplan = "pro" price = "49" users = "unlimted users" storage ="50GB"></Pricecard>
 
       {/* Other sections go here */}
       </div>

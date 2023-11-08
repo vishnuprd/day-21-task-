@@ -11,8 +11,8 @@ function Pricecard(props) {
                   <h6 className="card-price text-center">${props.price}<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Single User</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>5GB Storage</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.users}</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>{props.storage}</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
                     <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited Private Projects</li>
